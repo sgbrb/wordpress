@@ -1,0 +1,37 @@
+/*
+Theme Name: Loja Eletronicos Child
+Template: storefront
+*/
+body {
+  background: #fafbfc;
+  font-family: Arial, sans-serif;
+}
+.woo-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+}
+.product {
+  display: inline-block;
+  width: 300px;
+  margin: 1em;
+  vertical-align: top;
+}
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+.button.add_to_cart_button {
+  background: #146cff;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}

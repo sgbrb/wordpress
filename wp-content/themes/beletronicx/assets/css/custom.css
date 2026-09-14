@@ -1,0 +1,50 @@
+/* ... (mantenha todo o CSS anterior) ... */
+
+/* Logo Beletronicx */
+.logo-bele {
+    color: #2563eb;
+    font-weight: 700;
+}
+
+.logo-tronicx {
+    color: #f59e0b;
+    font-weight: 700;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* Menu mobile */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    
+    .main-navigation ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .main-navigation ul.active {
+        display: flex;
+    }
+    
+    .main-navigation li {
+        width: 100%;
+    }
+}
+
+/* ... (restante do CSS permanece igual) ... */
